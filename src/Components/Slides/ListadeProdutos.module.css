@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    grid-column: span 3;
+    position: relative;
+}
+
+.content {
+    position: relative;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.text {
+    padding-top: 16px;
+}

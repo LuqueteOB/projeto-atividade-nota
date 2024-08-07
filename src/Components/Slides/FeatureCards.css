@@ -1,0 +1,19 @@
+.custom-button {
+    background-color: white !important;
+    color: #C92071 !important;
+    border: none !important;
+  }
+  
+  .custom-button:hover {
+    background-color: #f0f0f0 !important; /* Cor de fundo ao passar o mouse */
+    color: #C92071 !important;
+  }
+  
+  .custom-button:active {
+    background-color: #e0e0e0 !important; /* Cor de fundo ao clicar */
+    color: #C92071 !important;
+  }
+  
+  .custom-button:focus {
+    box-shadow: none !important;
+  }

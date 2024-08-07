@@ -1,0 +1,47 @@
+.checkbox-custom {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.checkbox-custom input[type="checkbox"] {
+  display: none; /* Esconde o input original */
+}
+
+.checkbox-custom label {
+  position: relative;
+  padding-left: 36px; /* Espaço para a caixa de seleção */
+  cursor: pointer;
+  line-height: 1.5;
+  font-size: 16px; /* Aumenta o tamanho da fonte do rótulo */
+}
+
+.checkbox-custom label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px; /* Ajuste para centralizar verticalmente */
+  width: 24px; /* Aumenta o tamanho da caixa */
+  height: 24px; /* Aumenta o tamanho da caixa */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkbox-custom input[type="checkbox"]:checked + label::before {
+  background-color: #f50057; /* Cor rosa */
+  border-color: #f50057;
+}
+
+.checkbox-custom input[type="checkbox"]:checked + label::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  width: 8px;
+  height: 15px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

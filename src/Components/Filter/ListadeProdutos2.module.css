@@ -1,0 +1,10 @@
+.productImage {
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* Ajuste conforme necessário */
+}
+
+.productImage img {
+  width: 100%;
+  height: auto;
+}

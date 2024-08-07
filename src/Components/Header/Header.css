@@ -1,0 +1,21 @@
+/* src/components/Header/Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333; /* Ajuste conforme necessário */
+}
+
+.no-blue-link {
+  text-decoration: none; /* Remove a decoração de texto */
+  color: inherit; /* Remove a cor azul */
+}
+
+.icon-hover-pink {
+  transition: color 0.3s; /* Adiciona uma transição suave */
+}
+
+.icon-hover-pink:hover {
+  color: #d63f6f; /* Cor rosa desejada */
+}
